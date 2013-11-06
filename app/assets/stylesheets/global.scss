@@ -1,0 +1,97 @@
+@import "variables";
+
+html, body {
+	height: 100%;	
+	margin: 0;
+	background: $body-color;
+	color: $text-color;
+}
+
+#main-container {
+	width: 100%;
+	min-height: 90%;
+	position: relative;
+	margin: 0 auto;
+}
+
+#header {
+	height: 100px;
+	padding: 15px;
+}
+
+#menu {
+	background: $color-menu;
+	color: $text-color;
+	height: 20px;
+	padding: 10px;
+
+	ul {
+		max-width: 1024px;
+		width: 100%;
+		margin: 0 auto;
+		padding: 0;
+
+		li {
+			list-style-type: none;
+			display: inline-block;
+			padding-right: 10px;
+		}
+	}
+}
+
+#menu {
+	box-shadow: 4px 4px 7px #888888;
+}
+
+#wrap {
+	max-width: 1024px;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	margin: 0 auto;
+	padding: 35px 0;
+}
+
+#footerbottom {
+	width: 100%;
+	height: 10%;
+	background: $color-bottom;
+	margin: 0;
+
+	#footer {
+		max-width: 1024px;
+		width: 100%;
+		margin: 0;
+		padding: 20px;
+		color: $color-ffffff;
+	}
+}
+
+/* -------------------------- */
+
+.clear {
+	clear: both;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.section-group {
+	margin-right: -48px;
+
+	.group-box {
+		background: none repeat scroll 0 0 #FFFFFF;
+	    display: inline-block;
+	    padding: 12px;
+	    float: left;
+	    width: 476px;
+	    box-shadow: 4px 4px 7px #888888;
+	    margin-right: 24px;
+	    margin-bottom: 2%;
+	}
+}
